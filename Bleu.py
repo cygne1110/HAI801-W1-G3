@@ -322,7 +322,7 @@ reference_tokens = nltk.word_tokenize(reference.lower())
 candidate_tokens = nltk.word_tokenize(candidate.lower())
 
 # Paramètre n pour les trigrammes
-n = 5
+n = 1
 
 # Calcul du score BLEU avec fonction de lissage et trigrammes
 smoothie = SmoothingFunction().method4
