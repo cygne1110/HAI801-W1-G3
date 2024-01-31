@@ -1,7 +1,5 @@
 // compile with g++ -Wall -O3 -o AstarArthur1 AstarArthur1.c++
 
-#pragma once 
-
 #include <deque>
 #include <memory>
 #include <iostream>
